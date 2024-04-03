@@ -1,0 +1,8 @@
+*********** PARA QUE FUNCIONE LA INTEGRACIÓN DE PYTHON CON PROLOG: ***********
+
+
+1. Setear una variable de entorno para que encuentre los recursos con la libreria OS ANTES de importar pyswip:
+os.putenv("SWI_HOME_DIR","C:\\Program Files\\swipl")
+
+2. Utilizar la biblioteca de pyswip de la siguiente version 8.x.x:
+pip install git+https://github.com/ML-KULeuven/pyswip
